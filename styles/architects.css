@@ -223,12 +223,16 @@ footer p{
     header{
         padding: 20px;
     }
-    nav , nav ul{
+    nav {
         flex-direction: column;
         text-align: center;
     }
     nav li{
-        margin-top: 20px;
+        margin-top: 32px;
+        margin-right: 15px;
+    }
+    nav li a{
+        font-size: small;
     }
     .teams-container{
         flex-direction: column;

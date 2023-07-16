@@ -4,4 +4,67 @@
 /* shared styles */
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/* nav styles */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:30px 140px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 40px;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+.banner-section{
+    margin: 30px 0px ;
+}
+.banner-section img{
+    width: 100%;
+}
+.banner-content{
+    width: 700px;
+    text-align: center;
+    margin: 30px auto;
+}
+.banner-title{
+    margin: 20px 10px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.banner-description{
+    color: #727272;
+    margin: 20px 0px;
 }

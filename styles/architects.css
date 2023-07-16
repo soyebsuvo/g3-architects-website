@@ -113,6 +113,9 @@ main{
 }
 
 /* some facts section styles */
+.some-facts-section{
+    padding: 30px;
+}
 .facts-card-container{
     display: flex;
     justify-content: space-around;
@@ -167,6 +170,10 @@ main{
         width: 100%;
         gap: 10px;
     }
+    .facts-card-container{
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 /* for tablets and mediam devices */
@@ -188,5 +195,13 @@ main{
     .teams-img-container{
         width: 100%;
         padding: 30px;
+    }
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .some-facts-section{
+        padding: 60px;
     }
 }

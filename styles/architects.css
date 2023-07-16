@@ -75,6 +75,7 @@ nav a{
 main{
     max-width: 1030px;
     margin: 0 auto;
+    background: #FFF;
 }
 
 /* teams section styles */
@@ -111,7 +112,27 @@ main{
     font-weight: 700;
 }
 
-
+/* some facts section styles */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding:40px 35px;
+}
+.facts-card-container .card img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.card-nmbr{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
 
 
 
